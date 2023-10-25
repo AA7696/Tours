@@ -16,7 +16,7 @@ body{
   align-items: center;
   gap: 30px;
   width: 100dvw;
-  height: 250dvh;
+  height: max-content;
 
 }
 
@@ -31,9 +31,9 @@ body{
 
 .tour-container{
   width: 350px;
-  min-height: 450px;
   box-shadow: 3px 3px 8px gray;
   display: flex;
+  height: 750px;
   flex-direction: column;
 }
 
@@ -76,6 +76,7 @@ body{
   font-weight: 300;
   color: rgba(31, 30, 30, 0.882);
   margin-top: 11px;
+  text-align: center;
 }
 
 .text-wrapper p{
@@ -102,10 +103,19 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5px;
 }
 
 .btn:hover{
   background-color: rgba(37, 192, 37, 0.685);
   color: whitesmoke;
+}
+
+/* Loading component */
+
+.load-container{
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
